@@ -56,8 +56,11 @@ def ld(link, path):
 
 
 def main():
+    # 这里放mu类的主页链接
     mn_list = ["https://v.douyin.com/BV7Em38/", ]
+    # 这里放萌宠类的主页链接
     mc_list = ["https://v.douyin.com/BVvttcD/", ]
+    # 这里放搞笑类的主页链接
     gx_list = [ ]
     for link in mn_list:
         path = "./dl/mn/"
